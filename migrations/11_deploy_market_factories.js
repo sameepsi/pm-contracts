@@ -1,10 +1,5 @@
 module.exports = function (deployer) {
-    [
-        'StandardMarket',
-        'StandardMarketWithPriceLogger',
-    ].forEach(contractName => {
-        const contract = artifacts.require(contractName)
-        const factory = artifacts.require(contractName + 'Factory')
-        deployer.deploy(factory, contract.address)
-    })
+    const contract = artifacts.require('StandardMarket')
+    const factory = artifacts.require('StandardMarketFactory')
+    deployer.deploy(factory, contract.address)
 }

@@ -1,5 +1,5 @@
 pragma solidity ^0.4.18;
-import "../Tokens/StandardToken.sol";
+import "@gnosis.pm/util-contracts/contracts/StandardToken.sol";
 
 
 contract OutcomeTokenData {

@@ -25,10 +25,13 @@
   ],
   "author": "Gnosis (https://gnosis.pm)",
   "license": "GPL-3.0",
-  "dependencies": {},
+  "dependencies": {
+    "@gnosis.pm/util-contracts": "^0.2.0"
+  },
   "devDependencies": {
     "@digix/tempo": "^0.2.0",
     "babel-eslint": "^8.0.2",
+    "canonical-weth": "^1.0.0",
     "decimal.js": "^8.0.0",
     "eslint": "^4.11.0",
     "eslint-plugin-babel": "^4.1.1",
